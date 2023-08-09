@@ -1,0 +1,122 @@
+
+*{
+    margin:0;
+    box-sizing: 0;
+}
+#home{
+    margin-top:2%;
+}
+
+
+#imagehome{
+
+    width: 25%;
+    
+
+}
+#imagehome img{
+    border-radius: 50%;
+    
+    
+}
+.textboxhome:nth-child(1){
+    color:red;
+    font-size:9vh;
+    font-weight: 750;
+}
+.textboxhome:nth-child(2){
+    
+    font-size:3vh;
+    font-weight: 750;
+}
+#texthome{
+    gap: 5vh;
+    max-width: 30%;
+}
+#skils{
+    margin-top: 20vh;
+    background-color: rgb(240, 240, 240,0.7) ;
+
+}
+#titleskils{
+    margin-left: 2vh;
+    color:rgb(50, 18, 76);
+    font-size:5vh;
+    font-weight: 750;
+}
+#skilcontainer{
+    max-width: 100%;
+    margin-top:10vh;
+  
+}
+.skilbox{text-align: center;
+    background-color: white;
+    padding: 10vh 2vh;
+    width: 25%;
+    min-height: 40vh;
+    border: 2px solid grey;
+    border-radius: 10%;
+    margin: 5vh;
+    
+
+
+}
+
+.skiltextbox p {
+    text-indent: 10%;
+    font-size: 2.5vh;
+}
+.cerc{
+    width: 15vh;
+    background-color: white;
+    border-top:2px solid grey;
+    border-top-right-radius:50% ;
+    border-top-left-radius:50%;
+}
+.cerc img{
+   
+  border-radius: 50%;
+}
+#moreskils{
+   display: flex;
+   justify-content:end ;
+}
+#hiddeskilboxes{
+    margin-top:10vh;
+    
+}
+#skilbtn{
+    margin-right:2vh;
+}
+
+#projecttitle{
+    margin-left: 2vh;
+    color:rgb(50, 18, 76);
+    font-size:5vh;
+    font-weight: 750;
+}
+.projectbox{
+    width: 40%;
+    height: 50vh;
+}
+.inboxproject img{
+    height: 100%;
+   
+}
+#projectincomin{
+font-size: 4vh;
+}
+#contact{
+    background-color: rgb(240, 240, 240,0.7) ;
+}
+@media (max-width:560px) {
+    .textboxhome:nth-child(2){
+    
+        font-size:2vh;
+        font-weight: 660;
+    }
+
+
+
+    
+}
